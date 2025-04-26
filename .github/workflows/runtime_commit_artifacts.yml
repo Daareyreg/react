@@ -33,7 +33,7 @@ jobs:
   download_artifacts:
     runs-on: ubuntu-latest
     permissions:
-      # We use github.token to download the build artifact from a previous runtime_build_and_test.yml run
+      # We use githuby.token to download the build artifact from a previous runtime_build_and_test.yml run
       actions: read
     steps:
       - uses: actions/checkout@v4
